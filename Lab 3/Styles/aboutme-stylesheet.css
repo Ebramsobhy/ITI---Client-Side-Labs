@@ -1,0 +1,23 @@
+strong {
+    color: rgb(223, 223, 2);
+}
+.myNote {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: gray
+}
+
+* {
+    color: white;
+}
+
+h1,
+h2 {
+    color:rgb(37, 227, 227);
+}
+
+a {
+    color: red;
+}

@@ -1,0 +1,23 @@
+.myDate {
+    margin: auto;
+    text-align: center;
+    background-color: rgb(247, 247, 153);
+    width: 30%;
+    padding: 20px;
+}
+
+p {
+    margin: 30px;
+}
+
+.myEdit button:hover {
+   background-color: orange;
+   color: white;
+}
+
+.myEdit button {
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    margin: 20px 0px;
+}
