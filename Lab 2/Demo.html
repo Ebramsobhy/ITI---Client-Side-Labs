@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    table, th, td
+    {
+      border: 1px solid black;
+      border-collapse: collapse; 
+    }
+    th, td 
+    {
+        padding: 20px;
+    }
+    table {
+        text-align: center;
+    }
+    button {
+        width: 30%;
+        color: white;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <form action="Welcome.html" method="post">
+        <div>
+            First Name : 
+            <input type="text" name="first name">
+       </div>
+       <br>
+       <div>
+            Last Name :
+            <input type="text" name="last name">
+       </div> 
+       <br>
+        <div>
+            Password :
+            <input type="password" name="pwd">
+        </div>
+        <br>
+        <div>
+            Age : 
+            <input type="number" name="age">
+        </div>
+        <br>
+        <div>
+        Hobbies :
+         <div>
+            <input type="checkbox" name="hobbies" value="Football" id="foot1">
+            <label for="foot1">Football</label>
+         </div>
+         <div>
+            <input type="checkbox" name="hobbies" value="Vollyball" id="volly1">
+            <label for="volly1">Vollyball</label>
+         </div>
+        <div>
+            <input type="checkbox" name="hobbies" value="Basketball" id="basket1">
+            <label for="basket1">Basketball</label>
+        </div>
+    </div>
+    <br>
+    Gender :
+    <div>
+        <input type="radio" name="gen" value="Male" id="gen1">
+        <label for="gen1">Male</label>
+    </div>
+    <div>
+        <input type="radio" name="gen" value="Female" id="gen2">
+        <label for="gen2">Female</label>
+    </div>
+    <br>
+    <div>
+        <input style="cursor:pointer ;" type="submit" value="Submit">
+    </div>
+    <br>
+    <div>
+        <textarea name="Notes" placeholder="Write your notes" ></textarea>
+    </div>
+ </form>
+ <img src="media/countries.png" width="300" height="300" usemap="#countries">
+ <map name="countries">
+   <area title="Egypt" href="" shape="poly" coords="166,50,184,77,201,74,215,91,258,108,263,87,283,74,297,8,192,3,191,29,187,46,170,42">
+   <area title="Libya" href="" shape="poly" coords="124,49,145,46,158,50,187,43,198,6,146,1,115,21">
+   <area title="Algeria" href="" shape="poly" coords="48,89,67,69,77,49,140,0,68,0,6,10,4,31,16,69">
+   <area title="Mali" href="" shape="poly" coords="48,88,61,74,119,99,95,160,66,159">
+   <area title="Chad" href="" shape="poly" coords="121,53,140,47,169,51,186,77,196,80,188,137,156,136,138,97,118,86">
+   <area title="Ethiopia" href="" shape="poly" coords="257,107,263,85,314,89,316,137,294,151,249,132,248,114">
+ </map> 
+ <hr>
+ <iframe src="https://iti.gov.eg" width="300px" height="300"></iframe>
+ <hr>
+ <table style="width:100% ;">
+    <tr>
+        <th>#</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Salary</th>
+        <th>Position</th>
+        <th>Age</th>
+        <th style="width: 30%;">Actions</th>
+    </tr>
+    <tr>
+        <td>NA</td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td>NA</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Abanob</td>
+        <td>Nabil</td>
+        <td>5000</td>
+        <td>Instructor</td>
+        <td>28</td>
+        <td>
+            <button style="background-color:blue">Details</button>
+            <button style="background-color:green">Edit</button>
+            <button style="background-color:red">Delete</button>
+        </td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Ahmed</td>
+        <td>Mamdouh</td>
+        <td>5000</td>
+        <td>Training manager</td>
+        <td>35</td>
+        <td>
+           <button style="background-color:blue">Details</button>
+           <button style="background-color:green">Edit</button>
+           <button style="background-color:red">Delete</button>
+        </td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Mohamed</td>
+        <td>Sayed</td>
+        <td>5000</td>
+        <td>Instructor</td>
+        <td>35</td>
+        <td>
+            <button style="background-color:blue">Details</button>
+            <button style="background-color:green">Edit</button>
+            <button style="background-color:red">Delete</button>
+        </td>
+    </tr>
+        <tr>
+            <td>4</td>
+            <td>Christen</td>
+            <td>Zarief</td>
+            <td>5000</td>
+            <td>Instructor</td>
+            <td>32</td>
+            <td>
+                <button style="background-color:blue">Details</button>
+                <button style="background-color:green">Edit</button>
+                <button style="background-color:red">Delete</button>
+            </td>
+        </tr>
+ </table>
+ <hr>
+     <form action="" method="get">
+        <fieldset>
+            <legend>Customer Info</legend>
+        <div>
+            <label for="na">Name:</label>
+            <input type="text" placeholder="Enter your name" id="na">
+        </div>
+        <br>
+        <div>
+           <label for="num">Number:</label>
+           <input type="number" placeholder="Pattern: 1-234-567-8910" id="num">
+        </div>
+        <br>
+        <div>
+           <label for="mail">Email Address:</label>
+           <input type="email" placeholder="Enter your email address" id="mail">
+        </div>
+        </fieldset>
+     </form>
+      <form action="" method="post">
+       <fieldset>
+        <legend>Books</legend>
+        <input type="text"> 
+        <label for="nu">Quantity (Maximum 5):</label>
+        <input type="number" id="nu" max="5">
+       </fieldset>
+       <input type="submit" value="submit">
+      </form>
+      <p style="padding-left: 40px ; margin-top: 2px;">&copy; 2011 Acme United, All rights reserved</p>
+      <hr>
+      <ol>
+        <li>Coffe</li>
+        <li>Tea
+            <ul>
+                <li>Black tea</li>
+                <li>Green tea</li>
+            </ul>
+        </li>
+        <li>Milk</li>
+      </ol>
+
+</body>
+</html>
